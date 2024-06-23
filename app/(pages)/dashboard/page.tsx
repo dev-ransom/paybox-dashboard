@@ -24,7 +24,7 @@ const Dashboard: React.FC = () => {
         <Header title="Analytics dashboard" user={user} />
         <main className="p-4 space-y-4">
           <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4">
-            <Card title="Wallet Balance" value="₦50,000.00" className="col-span-1 " textColor='text-[#CDCDCD]' valueColor='text-white'>
+            <Card title="Wallet Balance" value="₦50,000.00" className="col-span-1 " >
               <div className="flex space-x-2 mt-2">
                 <button className="bg-white text-blue-500 px-4 py-2 rounded">Add Fund</button>
                 <button className="bg-white text-blue-500 px-4 py-2 rounded">Withdraw</button>
